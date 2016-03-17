@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "scope-enum": [
+      2,
+      "always",
+      [
+        "spec",
+        "system"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+  <defs>
+    <style><![CDATA[
+      @keyframes move-one {
+        from {
+          motion-offset: 25%;
+        }
+        to {
+          motion-offset: 125%;
+        }
+      }
+      @keyframes move-two {
+        from {
+          motion-offset: 75%;
+        }
+        to {
+          motion-offset: 175%;
+        }
+      }
+      .logo {
+        fill: rgba(244, 68, 27, 1);
+      }
+      @supports (motion-offset: 0) {
+        .electron {
+          cy: 0;
+          cx: 0;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+        }
+        #first-electron {
+          motion-offset: 25%;
+          animation-name: move-one;
+          animation-duration: 7.5s;
+          motion-path: path("M407.6 267.6a272 111.5 60 0 0-232.8-180 272 111.5 60 0 0 39.4 291 272 111.5 60 0 0 233 179.8 272 111.5 60 0 0-39.6-290.8z");
+        }
+        #second-electron {
+          position: absolute;
+          motion-offset: 75%;
+          animation-name: move-two;
+          animation-duration: 5s;
+          animation-direction: reverse;
+          motion-path: path("M310 210.2a275.7 112.8 0 0 0-275.7 113A275.7 112.8 0 0 0 310 435.8a275.7 112.8 0 0 0 275.7-113A275.7 112.8 0 0 0 310 210.3z");
+        }
+      }
+    ]]></style>
+  </defs>
+  <g class="logo">
+    <path
+      id="first-electron-path"
+      d="M407.6 267.6a272 111.5 60 0 0-232.8-180 272 111.5 60 0 0 39.4 291 272 111.5 60 0 0 233 179.8 272 111.5 60 0 0-39.6-290.8zM386.2 281A242.3 87.2 60 0 1 432 534a242.3 87.2 60 0 1-197-166.3 242.3 87.2 60 0 1-45.7-253 242.3 87.2 60 0 1 197 166.2z"
+      />
+    <path
+      id="second-electron-path"
+      d="M310 210.2a275.7 112.8 0 0 0-275.7 113A275.7 112.8 0 0 0 310 435.8a275.7 112.8 0 0 0 275.7-113A275.7 112.8 0 0 0 310 210.3zm1 25.5A245.7 88.3 0 0 1 556.5 324 245.7 88.3 0 0 1 311 412.2 245.7 88.3 0 0 1 65.2 324 245.7 88.3 0 0 1 311 235.7z"
+      />
+    <path d="M213.2 266.5A112.5 273.4 30.3 0 1 448.5 86a112.5 273.4 30.3 0 1-39.8 291.8 112.5 273.4 30.3 0 1-235.4 180.6 112.5 273.4 30.3 0 1 40-292zm21.6 13.3a88 243.6 30.3 0 0-46.2 254 88 243.6 30.3 0 0 199-167A88 243.6 30.3 0 0 434 113a88 243.6 30.3 0 0-199.2 167z"/>
+    <g class="electrons">
+      <circle
+        id="first-electron"
+        class="electron"
+        cx="185"
+        cy="90"
+        r="45"
+        />
+      <circle
+        id="second-electron"
+        class="electron"
+        cx="570"
+        cy="315"
+        r="45"
+        />
+    </g>
+  </g>
+</svg>

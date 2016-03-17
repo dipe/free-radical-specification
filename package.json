@@ -1,0 +1,61 @@
+{
+  "name": "free-radical-specification",
+  "version": "0.1.0",
+  "description": "Specification for the Free Radical Role",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch & npm run sync",
+    "sync": "browser-sync start --server --files \"*.html\"",
+    "build": "npm run bikeshed spec -- *.bs",
+    "watch": "chokidar *.bs --initial -c \"if [ \"{event}\" = \"change\" ]; then npm run bikeshed spec -- {path}; fi\"",
+    "commit": "git-cz",
+    "commitmsg": "conventional-changelog-lint -e",
+    "preinstall": "virtualenv -p python2.7 env",
+    "postinstall": "npm run pip install -- -r requirements.pip",
+    "freeze": "./env/bin/pip freeze > requirements.pip",
+    "pip": "./env/bin/pip",
+    "bikeshed": "./env/bin/bikeshed"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinnerschrader/free-radical-specification.git"
+  },
+  "keywords": [
+    "specification",
+    "free-radical",
+    "radical",
+    "sinnerschrader",
+    "s2"
+  ],
+  "author": "Free Radicals <free.radicals@sinnerschrader.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinnerschrader/free-radical-specification/issues"
+  },
+  "homepage": "https://github.com/sinnerschrader/free-radical-specification#readme",
+  "devDependencies": {
+    "alex": "^2.0.1",
+    "browser-sync": "^2.11.1",
+    "chokidar-cli": "^1.2.0",
+    "commitizen": "^2.7.2",
+    "conventional-changelog-cli": "^1.1.1",
+    "conventional-changelog-lint": "^0.3.2",
+    "cz-conventional-changelog-lint": "^0.1.3",
+    "husky": "^0.11.3",
+    "remark": "^4.1.2",
+    "remark-lint": "^3.0.0",
+    "retext": "^2.0.0",
+    "unist-builder": "^1.0.1",
+    "unist-util-find-after": "^1.0.1",
+    "unist-util-visit": "^1.0.1",
+    "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "unist-util-select": "^1.5.0"
+  }
+}
