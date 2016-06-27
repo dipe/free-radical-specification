@@ -7,18 +7,19 @@ This specification defines a framework for implementation of the Free Radical Ro
 Technical projects increasingly face contradictions in decision-making,
 methodology and choice of technology.
 
-This class of problem arises from contradictory requirements and pressure
-factors, which can be simplified as monetary aspects on one side and
-ever higher requirements to reliability and quality of the software technical
-teams ultimately produce.
-
 This development takes place in an environment where technical advancement
-is considerably accelerating, which puts additional contradictions into
-potential making: Adopting new methodology and technology for their
+is considerably accelerating, which makes decision making harder and harder:
+Adopting new methodology and technology for their
 benefits versus using known approaches and techniques.
 
 In order to help teams advance in an ordered and sustainable manner, the
 creation of a <a>Free Radical</a> role is proposed.
+
+This document explains the proposed role for everyone interested in
+understanding the work of <a>Free Radical</a>s. Notable audience are potential
+employees and employees striving to take on the role.
+
+List order do not infer any prioritization.
 
 ## Terminology
 
@@ -35,9 +36,6 @@ taking on the role has to fulfill are described in separate sections of this doc
 The scope of this specification is limited to the definition of the very minimum
 of a framework for the role of a Free Radical.
 
-It does not contain any concrete workflow examples, cases, constraints or
-rules for day-to-day work.
-
 The <a>Free Radical</a> role can be implemented in various disciplines – this
 specification describes the role in the scope of employees working in software
 development.
@@ -47,7 +45,7 @@ development.
 <i>This section is non-normative</i>
 
 The <a>Free Radical</a> role is defined as to achieve the following desirable
-effects:
+effects.
 
 -   General technical advancement of the company
 -   General methodological advancement of the company
@@ -59,7 +57,7 @@ effects:
 
 ## Tasks
 
-<a>Free Radical</a>s <strong>MUST</strong> take on the following tasks in their day-to-day work:
+<a>Free Radical</a>s <strong>MUST</strong> take on the following tasks in their day-to-day work.
 
 -   General consulting on technical matters
 -   Sparring on technical implementations and decisions for all other employees. This explicitly includes non-technical staff.
@@ -67,6 +65,7 @@ effects:
 -   Implementation and documentation of technical project setups
 -   Introduction of new technology in projects
 -   Knowledge Transfer about technical matters, especially introduced setups and technology
+-   Actively search for technology of next year or year after
 
 <a>Free Radical</a>s <strong>SHOULD</strong> take on the following tasks as they see fit:
 
@@ -91,7 +90,6 @@ the following abilities:
 Additionally <a>Free Radical</a>s <b>SHOULD</b> sport the following attributes
 and qualities
 
--   High interest in solving problems and making things work
 -   Distinct motivation to improve upon existing solutions
 -   Readiness to learn far beyond the personal horizon
 -   Courage to assume calculated risks
@@ -108,20 +106,6 @@ frame conditions <strong>SHOULD</strong> be met:
 -   <a>Free Radical</a>s account only partially for their productive work times
 -   <a>Free Radical</a>s have the liberties to take calculated risks in their field of work
 -   <a>Free Radical</a>s are directly available for questions and sparring to other employees
-
-## Mission statement
-
-Technology is great. We firmly believe there is more to building
-software than to making it work one way or the other.
-
-There are always elegant patterns to sculpt, bytes to shove off and complexities
-to simplify. We work hard to do exactly that and spread the knowledge about it to everyone.
-
-Good solutions and new paths do not come without dangers. Things will go wrong –
-we know that and will account for the risks.
-
-Because exploring the best solution is so much fun, we fight for it.
-Every day, radically and courageously.
 
 ## Supporting Measures
 
