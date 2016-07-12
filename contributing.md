@@ -14,22 +14,6 @@ Thank you for reporting any issues you find.
 We do our best to test and make free-radical-specification
 as solid as possible, but any reported issue is a real help.
 
-**Please follow these guidelines when reporting issues:**
-
-*   Provide a title in the format of `<Error> when <Task>`
-
-*   Tag your issue with the tag `bug`
-
-*   Provide a short summary of what you are trying to do
-
-*   Provide the log of the encountered error if applicable
-
-*   Provide the exact version of free-radical-specification.
-Check `npm ls free-radical-specification` when in doubt
-
-*   Be awesome and consider contributing a
-[pull request](#want-to-contribute)
-
 ## Contributing changes
 
 You consider contributing changes to free-radical-specification –
@@ -60,6 +44,7 @@ the pull request
 To keep the code base of free-radical-specification
 neat and tidy the following rules apply to every change
 
+*   Be nice
 *   Be awesome
 
 ## Commit Rules
@@ -123,9 +108,3 @@ brew install libxml2 libxslt
 brew link libxml2 --force
 brew link libxslt --force
 ```
-
----
-
-Copyright 2016 by [Mario Nebl](https://github.com/marionebl)
-and [contributors](./graphs/contributors).
-Released under the [MIT license]('./license.md').
