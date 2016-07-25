@@ -2,14 +2,14 @@
 Title: Free Radical
 H1: Free Radical
 Status: ED
-ED: https://sinerschrader.github.com/free-radical-specification
+ED: https://sinnerschrader.github.com/free-radical-specification
 Level: 1
 Shortname: free-radical
 Editor:
   Mario Nebl, SinnerSchrader Deutschland GmbH, mario.nebl@sinnerschrader.com
 Group: free-radicals
 Abstract: This specification defines a framework for implementation of the Free Radical Role. It does so by defining desired effects and requirements for employees and their work in order to fulfill the Free Radical Role.
-Version History: https://github.com/sinnerschrader/free-radical-specification/commits/index.bs
+Version History: https://github.com/sinnerschrader/free-radical-specification/commits/master/index.bs
 !Bug Reports: <a href="https://github.com/sinnerschrader/free-radical-specification/issues/new">via the sinnerschrader/free-radical-specification repository on GitHub</a>
 Indent: 2
 Repository: sinnerschrader/free-radical-specification
