@@ -1,5 +1,7 @@
 # Free Radical
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sinnerschrader/free-radical-specification.svg)](https://greenkeeper.io/)
+
 This specification defines a framework for implementation of the Free Radical Role. It does so by defining desired effects and requirements for employees and their work in order to fulfill the Free Radical Role.
 
 ## Introduction
