@@ -19,7 +19,7 @@ This document explains the proposed role for everyone interested in
 understanding the work of <a>Free Radical</a>s. Notable audience are potential
 employees and employees striving to take on the role.
 
-List order do not infer any prioritization.
+List order does not infer any prioritization.
 
 ## Terminology
 
@@ -36,9 +36,7 @@ taking on the role has to fulfill are described in separate sections of this doc
 The scope of this specification is limited to the definition of the very minimum
 of a framework for the role of a Free Radical.
 
-The <a>Free Radical</a> role can be implemented in various disciplines – this
-specification describes the role in the scope of employees working in software
-development.
+This specification describes the Free Radical role for employees working in product engineering.
 
 ## Desired Effects
 
@@ -52,25 +50,23 @@ effects.
 -   Mid- and longterm productivity gains
 -   Improved reliability and quality of software projects
 -   Distribution of advanced technology knowledge
--   Timely utilization and trial of new technology and its potential benefits
--   Sustained attractiveness of projects and company for new and present employees
+-   Discover improvements and and potential of new technologies
+-   Improved attractiveness of company for product engineers
 
 ## Tasks
 
 <a>Free Radical</a>s <strong>MUST</strong> take on the following tasks in their day-to-day work.
 
 -   General consulting on technical matters
--   Sparring on technical implementations and decisions for all other employees. This explicitly includes non-technical staff.
+-   Sparring on technical implementations and decisions for all employees.
 -   General development work, aiming at establishing Best Practices by example
--   Implementation and documentation of technical project setups
--   Introduction of new technology in projects
--   Knowledge Transfer about technical matters, especially introduced setups and technology
--   Actively search for technology of next year or year after
+-   Introduction of new technology and methods
+-   Knowledge Transfer
+-   Active research of upcoming technology and methods
 
 <a>Free Radical</a>s <strong>SHOULD</strong> take on the following tasks as they see fit:
 
 -   Support and implementation of Open Source Software
--   Introduction of new methodology in technical problem spaces
 -   Presentations and talks inside and outside of the company
 
 ## Requirements
@@ -84,16 +80,15 @@ the following abilities:
 -   High capacity for learning new concepts and techniques
 -   Ability to communicate and convince others of new techniques, methods and concept
 -   Excellent skills in delivery and implementation
--   Good abilities in explaining solutions and techniques to others
 -   Ability to reason about technical solutions in a nuanced and pragmatic manner
 
 Additionally <a>Free Radical</a>s <b>SHOULD</b> sport the following attributes
 and qualities
 
--   Distinct motivation to improve upon existing solutions
+-   Strong motivation to improve upon existing solutions
 -   Readiness to learn far beyond the personal horizon
+-   Capabilities to think outside of traditional and present boundaries
 -   Courage to assume calculated risks
--   Capabilities to to think outside of traditional and present boundaries
 -   Strong sense for opportunities and risks of applied technology
 
 ## Frame conditions
@@ -103,7 +98,7 @@ frame conditions <strong>SHOULD</strong> be met:
 
 -   <a>Free Radical</a>s decide independently on their involvement in projects
 -   Projects avoid planning with <a>Free Radical</a>s as permanent project members
--   <a>Free Radical</a>s account only partially for their productive work times
+-   <a>Free Radical</a>s account only partially for their work times
 -   <a>Free Radical</a>s have the liberties to take calculated risks in their field of work
 -   <a>Free Radical</a>s are directly available for questions and sparring to other employees
 
@@ -114,13 +109,16 @@ role a range of additional measures can be taken.
 
 -   Regular surveys inquiring about the perceived performance of <a>Free Radicals</a>
 -   Transparency about the current work of <a>Free Radicals</a>, e.g. by publishing it on blogs
--   Regular updates on the self-improvement efforts undertaken by <a>Free Radical</a>
+-   Regular updates on the self-improvement efforts undertaken by <a>Free Radicals</a>
 
 ## Acknowledgements
 
 The following people have greatly contributed to this specification:
 
+-   Clemens Akens
 -   Peter Ehrenberg
 -   Helge
 -   Felicitas Kugland
+-   Mario Nebl
+-   Janno Rothfos
 -   Markus Wolf
