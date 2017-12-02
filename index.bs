@@ -46,10 +46,10 @@ In order to help teams advance in an ordered and sustainable manner, the
 creation of a <a>Free Radical</a> role is proposed.
 
 This document explains the proposed role for everyone interested in
-understanding the work of <a>Free Radical</a>s. Notable audience are potential
+understanding the work of <a>Free Radical</a>s. The notable audiences are potential
 employees and employees striving to take on the role.
 
-List order do not infer any prioritization.
+List order does not infer any prioritization.
 
 Terminology {#m}
 ================
@@ -80,10 +80,10 @@ effects.
 
 *  General technical advancement of the company
 *  General methodological advancement of the company
-*  Mid- and longterm productivity gains
+*  Mid- and long-term productivity gains
 *  Improved reliability and quality of software projects
 *  Distribution of advanced technology knowledge
-*  Discover improvements and and potential of new technologies
+*  Discover improvements and potential of new technologies
 *  Improved attractiveness of company for product engineers
 
 Tasks {#tasks}
@@ -114,7 +114,7 @@ the following abilities:
 *  Ability to draft and implement sound technical concepts
 *  Excellent general problem-solving capabilities
 *  High capacity for learning new concepts and techniques
-*  Ability to communicate and convince others of new techniques, methods and concept
+*  Ability to communicate and convince others of new techniques, methods, and concept
 *  Excellent skills in delivery and implementation
 *  Good abilities in explaining solutions and techniques to others
 *  Ability to reason about technical solutions in a nuanced and pragmatic manner
@@ -126,7 +126,7 @@ and qualities
 *  Readiness to learn far beyond the personal horizon
 *  Capabilities to think outside of traditional and present boundaries
 *  Courage to assume calculated risks
-*  Strong sense for opportunities and risks of applied technology
+*  Strong sense of opportunities and risks of applied technology
 
 Frame conditions {#conditions}
 ==============================
