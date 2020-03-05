@@ -18,7 +18,7 @@ Inline Github Issues: true
 </pre>
 
 <div boilerplate=copyright>
-  Copyright 2016 by
+  Copyright 2020 by
   <a href="https://github.com/sinnerschrader">SinnerSchrader Deutschland GmbH</a>
   and
   <a href="https://github.com/sinnerschrader/free-radical-specification/graphs/contributors">
