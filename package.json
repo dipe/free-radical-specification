@@ -7,7 +7,7 @@
     "start": "npm run watch & npm run sync",
     "sync": "browser-sync start --server --files \"*.html\"",
     "build": "npm run bikeshed spec -- *.bs",
-    "watch": "chokidar *.bs --initial -c \"if [ \"{event}\" = \"change\" ]; then npm run bikeshed spec -- {path}; fi\"",
+    "watch": "chokidar index.bs --initial -c \"npm run bikeshed spec -- {path}\"",
     "commit": "git-cz",
     "commitmsg": "conventional-changelog-lint -e",
     "preinstall": "virtualenv -p python2.7 env",
